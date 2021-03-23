@@ -1,7 +1,7 @@
 FROM python:3
 
-ADD src /src
+ADD calcTest.py /
 
-CMD [ "python", "./src/calculatorTests.py"]
+CMD [ "python", "./calcTest.py"]
 
 
